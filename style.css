@@ -1,0 +1,100 @@
+.flex-container-1{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 70%;
+    border: 1px solid black;
+
+}
+.flex-container-1 div{
+    flex:1;
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container-row1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000;
+    flex-direction: column;
+    color: white;
+}
+.flex-container-row2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    min-height: 350px;
+    
+
+    border: 1px solid #000;
+    /* background-position: center; */
+    background: url(./imges/background/poker-table-background-green-color_47243-1068.webp) center;
+}
+.flex-container-row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+.buttons{
+    background: url(./imges/background/poker-table-background-green-color_47243-1068.webp);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: white;
+    color: #000;
+}
+
+.your-card-box{
+border: 1px solid black;
+}
+
+.bot-card-box{
+    border: 1px solid black;
+}
+
+table, th, td{
+    border: 1px solid white;
+    padding: 5px;
+    background: black;
+    color: white;
+
+}
+.flex-container-row2 img{
+    width: 23%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+
+}
+/* .card-img{
+    
+} */
